@@ -14,7 +14,7 @@ CREATE TABLE ADDRESS
     street    VARCHAR(100) NOT NULL,
     city      VARCHAR(100) NOT NULL,
     state     VARCHAR(100) NOT NULL,
-    postCode  NUMBER       NOT NULL,
+    postcode  NUMBER       NOT NULL,
     person_id NUMBER       NOT NULL,
     foreign key (person_id) references PERSON (id)
 );
