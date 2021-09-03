@@ -9,9 +9,7 @@ Maven ,
 Mokito ,
 slf4j.
 
-I have added hal explorer. So the calls can be done through that or postman
-The hal [url](http://localhost:8080/browser/index.html#/)
-
+Use postman to call the rest services 
 The data has been store in [H2]( http://localhost:8080/h2/login.jsp)
 JDBC url is jdbc:h2:mem:accela and username sa.
 
