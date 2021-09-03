@@ -17,3 +17,15 @@ In this work Person and Address are linked. One Person can have more that one ad
 
 For unit testing I have used Mockito.I have added it only for PersonServiceImplTest.The intension for me is to explaing my coding style.For real tim work I always recomend 80 percent test coverage.
 
+ For adding person localhost:8080/person/add
+ >{
+   "firstName":"Bibin",
+   "secondName":"Varghese"
+}
+For adding adress localhost:8080/address/{addressid}/add
+>{
+     "street":"Street Address",
+     "city" :"City Address",
+     "state": "State Address",
+     "postcode": 12345
+}
