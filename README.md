@@ -60,9 +60,8 @@ Once the application runs you should see something like this
 #### API Reference
 
 Use postman to call the rest services 
-The data has been store in [H2]( http://localhost:8080/h2/login.jsp)
 
-JDBC url is jdbc:h2:mem:accela and username sa.
+
 
  For adding person localhost:8080/person/add
  >{
@@ -78,11 +77,25 @@ For adding adress localhost:8080/address/{addressid}/add
      "postcode": 12345
 }
 
+### To view your H2 in-memory datbase
+
+This project runs on H2 in-memory database. To view and query the database you can browse to http://localhost:8080/h2-console. Default username is 'sa' with a blank password. 
+
 [Back To The Top](#read-me-template)
+
+### Get information about system health, configurations, etc.
+
+```
+http://localhost:8080/env
+http://localhost:8080/health
+http://localhost:8080/info
+http://localhost:8080/metrics
+```
 
 ---
 
 ## References
+https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.spring-application
 https://www.springboottutorial.com/spring-boot-projects-with-code-examples
 
 [Back To The Top](#read-me-template)
