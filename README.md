@@ -1,6 +1,7 @@
 # Accela interview project.
 
-   ####  This is a ReadMe for the work I have done as a part of Accela interview. 
+   ####  This is a sample  Java / Maven / Spring Boot application that is creating as a part of Accela interview process
+ 
 ---
 
 ### Table of Contents
