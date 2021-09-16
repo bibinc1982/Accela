@@ -99,9 +99,7 @@ This project runs on H2 in-memory database. To view and query the database you c
 ### Get information about system health, configurations, etc.
 
 ```
-http://localhost:8080/env
 http://localhost:8080/actuator/health
-http://localhost:8080/info
 http://localhost:8080/actuator/metrics
 ```
 
