@@ -118,7 +118,7 @@ https://www.springboottutorial.com/spring-boot-projects-with-code-examples
 
 ## Author Info
 
-Bibin Varghese
+Bibin Varghese\
 Linkedin     https://www.linkedin.com/in/bibin-varghese-a22508140/
 
 [Back To The Top](#read-me-template)
