@@ -61,22 +61,35 @@ Once the application runs you should see something like this
 
 Use postman to call the rest services 
 
+### Create a adding person
 
+```
+POST /person/add
+Accept: application/json
+Content-Type: application/json
 
- For adding person localhost:8080/person/add
- >{
+{
    "firstName":"Bibin",
    "secondName":"Varghese"
 }
 
-For adding adress localhost:8080/address/{addressid}/add
->{
+RESPONSE: HTTP 201 (Created)
+Location header: http://localhost:8090/example/v1/hotels/1
+```
+
+### Create a adding address
+
+
+```
+POST/address/{addressid}/add
+{
      "street":"Street Address",
      "city" :"City Address",
      "state": "State Address",
      "postcode": 12345
 }
 
+```
 ### To view your H2 in-memory datbase
 
 This project runs on H2 in-memory database. To view and query the database you can browse to http://localhost:8080/h2-console. Default username is 'sa' with a blank password. 
