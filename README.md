@@ -16,7 +16,7 @@ Sections headers will be used to reference location of destination.
 
 ## Description
 
-Adding person and related address for each person using rest endpoints. Each person can have more than one address . Person and address can be deleted or updated. As address can't exist with out person , when person is deleted address linked with the person will also get deleted.  We can view the persons as a list or individually  passing the Id. Address can be viewed  individually or all the address linked to a person. 
+The service is just a simple person and related address review REST service.Each person can have more than one address . Person and address can be deleted or updated. As address can't exist with out person , when person is deleted address linked with the person will also get deleted.  We can view the persons as a list or individually  passing the Id. Address can be viewed  individually or all the address linked to a person.  It uses an in-memory database (H2) to store the data. You can also do with a relational database like MySQL or PostgreSQL. If your database connection properties work, you can call some REST endpoints defined in ```com.interview.accela.controller.AddressController``` and ```com.interview.accela.controller.PersonController```  on **port 8080**. (see below)
 
 #### Technologies
 - Java 11
