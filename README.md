@@ -92,7 +92,7 @@ POST/address/{addressid}/add
 ```
 ### To view your H2 in-memory datbase
 
-This project runs on H2 in-memory database. To view and query the database you can browse to http://localhost:8080/h2-console. Default username is 'sa' with a blank password. 
+This project runs on H2 in-memory database. To view and query the database you can browse to http://localhost:8080/h2/login.jsp. JDBC url is jdbc:h2:mem:accela . Default username is 'sa' with a blank password. 
 
 [Back To The Top](#read-me-template)
 
